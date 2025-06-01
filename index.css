@@ -294,6 +294,11 @@
     margin-right: 40px;
     
 }
+@media(max-width:768px){
+    .project-description{
+        margin-right: 10px;
+    }
+}
 .projects-bottom-container{
     display: flex;
     flex-direction: row;
