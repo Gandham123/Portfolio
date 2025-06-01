@@ -195,7 +195,7 @@
     color: #000000;
     font-weight: 400;
     margin-top: 50px;
-   
+  
 }
 .about-me-text-xontainer{
     width: 50%;
@@ -284,9 +284,7 @@
     background-color: #EDF7FA;
     border-radius: 15px;
 }
-p{
-    text-align: justify;
-}
+
 .project-description{
     font-family: "Roboto";
     font-size: 18px;
@@ -327,13 +325,36 @@ p{
     justify-content: center;
     align-items: center;
 }
-.project-black-container{
+.project-black-container {
     height: 140px;
     width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 7px;
     margin-right: 15px;
     cursor: pointer;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
 }
+#project-cargomate {
+    background-image: url(images/transport.jpg);
+}
+#project-nxttrendz{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png");
+}
+#project-todo{
+    background-image: url(images/todo.png);
+}
+#project-watch{
+    background-image: url(images/watch.png);
+}
+.video-play-icon {
+    font-size: 40px; /* optional: more predictable than height/width */
+    color: rgb(30, 50, 227);
+}
+
 .each-project-image-space{
     margin-top: 40px;
 }
